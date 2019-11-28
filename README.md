@@ -40,6 +40,7 @@ The currently avialalbe templates are: -
 
 - Component
 - Page
+- Reducer
 
 ## Component Structure
 
