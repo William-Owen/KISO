@@ -179,4 +179,30 @@ module.exports = (plop) => {
 
 	})
 
+	// create your generators here
+	plop.setGenerator("Reducer", {
+
+		description: "A basic reducer",
+		prompts: [
+
+			{
+				type: "input",
+				name: "name",
+				message: "Reducer name (cammelCase)",
+			},
+
+		], // array of inquirer prompts
+		actions: [
+
+			{
+				type: "add",
+				path: "src/redux/{{name}}.reducer.js",
+				templateFile: "plop-templates/reducer/reducer.hbs",
+			},
+
+		], // array of actions
+
+	})
+
+
 }
