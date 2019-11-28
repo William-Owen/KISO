@@ -38,7 +38,7 @@ Plop.js is a micro-generator, a tool that gives you a simple way to generate cod
 
 ### Available Plop templates
 
-These templates are defined in the `plopfile.js` with supporting templates in the `plop-templates` directory. Plop templates use (Handlebars)[https://handlebarsjs.com/]
+These templates are defined in the `plopfile.js` with supporting templates in the `plop-templates` directory. Plop templates use [Handlebars](https://handlebarsjs.com/)
 
 The currently avialalbe templates are: -
 
