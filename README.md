@@ -1,6 +1,6 @@
 # Project Feature Overview
 
-This project is work in progress and not intended for use. Its function at this time is simply to assist a conversation around ways of working with React applications. THe application pulls together an opinionated stack of tools along with some opinionated logic to create an example React Application.
+This project is work in progress and not intended for use. Its function at this time is simply to assist a conversation around ways of working with React applications. The application pulls together an opinionated stack of tools along with some opinionated logic to create an example React Application.
 
 ## Install
 
@@ -8,13 +8,19 @@ This project is work in progress and not intended for use. Its function at this 
 
 ## Features
 
-- *ESLint* - IDE Linting for JavaScript/ES7/React/Babel
-- *Emotion CSS in JS* - Themeing and CSS
-- *EditorConfig* - General shared IDE config
-- *Jest / React Testing Library* - Unit testing
-- *Cypress* - Developer end-to-end testing
-- *StoryBook* - Component documentation and testing
-- *Plop JS* - Templates for pages and components
+- *[ESLint](https://eslint.org/)* - IDE Linting for JavaScript/ES7/React/Babel with extneded support for cypress
+- *[EditorConfig](https://editorconfig.org/)* - General shared IDE config
+- *[Jest](https://jestjs.io/) / [React Testing Library](https://testing-library.com/)* - Unit testing
+- *[Cypress](https://www.cypress.io/)* - Developer end-to-end testing
+- *[StoryBook](https://storybook.js.org/)* - Component documentation and testing
+- *[Plop JS](https://plopjs.com/)* - Templates for pages and components
+
+## Uncertain features
+
+These are features that are currently being explored but are not yet feeling quite right.
+
+- *[Emotion CSS in JS](https://emotion.sh/docs/introduction)* - Themeing and CSS. I am still not convinced about CSS in JS. This project has been configured to allow a parent theme to overide a child themre (The inverse of how I undersand the normal behaviour to work). In this way the component can define a look and feel that the parent theme (implementation) can overide.
+- Sotrybook Source view - This is not working correctly at this time.
 
 ## Plop template
 
