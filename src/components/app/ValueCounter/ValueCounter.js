@@ -30,7 +30,7 @@ export default function ValueCounter() {
 
 			<p>The current count value is <strong data-testid="count-value">{count}</strong></p>
 
-			<Button label="Add" handelOnAction={IncrementCount} />
+			<Button label="Increment Count" handelOnAction={IncrementCount} />
 			<Button label="Decrement Count" handelOnAction={DecrementCount} />
 
 		</div>
