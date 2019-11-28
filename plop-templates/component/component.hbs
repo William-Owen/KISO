@@ -1,0 +1,35 @@
+import React from "react"
+{{#if useProps}}{{!-- import PropTypes from "prop-types" --}}{{/if}}
+import classnames from "classnames"
+{{#if useRedux}}import { useSelector, useDispatch } from "react-redux"{{/if}}
+import "./{{name}}.sass"
+
+function {{name}}({{#if useProps}}props{{/if}}) {
+
+	{{#if useRedux}}
+		// const SomeReduxState = useSelector((state) => state.SomeReduxState)
+		// const dispatch = useDispatch()
+	{{/if}}
+
+	const elementClassNames = classnames(
+		"{{name}}",
+	)
+
+	return (
+
+		<div className={elementClassNames} />
+
+	)
+
+}
+{{#if useProps}}
+{{name}}.propTypes = {
+
+}
+
+{{name}}.defaultProps = {
+
+}
+{{/if}}
+
+export default {{name}}

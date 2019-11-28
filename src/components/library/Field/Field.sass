@@ -1,0 +1,57 @@
+// Field
+@import '../variables.sass'
+
+.Field
+
+	padding: $size-spacing-minor 0
+	border-bottom: 1px solid $color-base-lines
+
+	&:last-child
+		
+		border: none
+
+	label
+
+		font-size: 1rem
+		display: block
+		margin-bottom: $size-spacing-min
+		color: #000
+		letter-spacing: -0.02rem
+
+	input,
+	textarea
+
+		border: 1px solid $color-base-lines
+		width: 100%
+		padding: $size-spacing-minor
+		font-size: 1rem
+		border-radius: .25rem
+		box-shadow: 0 0 0 0 rgba($color-focus,0)
+		transition: border $animation-default-timing $animation-default-easing, box-shadow $animation-default-timing $animation-default-easing
+
+		&:focus
+
+			border: 1px solid $color-focus
+			box-shadow: 0 0 0 0.2rem rgba($color-focus,.25)
+			outline: none
+
+	&.hasError
+
+		input,
+		textarea
+
+			border: 1px solid $color-danger
+
+	.error-text
+
+		margin: $size-spacing-minor 0
+		color: $color-danger
+		font-size: .8rem
+		line-height: .8rem
+
+	.help-text
+		
+		margin: $size-spacing-minor 0
+		color: $color-soft-text
+		font-size: .8rem
+		line-height: .8rem

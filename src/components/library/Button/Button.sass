@@ -1,0 +1,89 @@
+// Button
+
+@import '../variables.sass'
+
+// Color attribution
+
+$Button-background-default: $color-action-secondary !default
+$Button-background-disabled: $color-disabled !default
+$Button-background-dangerous: $color-danger !default
+$Button-background-primary: $color-action !default
+$Button-color: #fff !default
+
+.Button
+
+	display: inline-block
+	background: $Button-background-default
+	color: $Button-color
+	border-radius: 4px
+	border: 0
+	cursor: pointer
+	padding: .7rem 1rem 
+	font-size: 1rem
+	letter-spacing: -0.015rem
+	outline: none
+	user-select: none
+	transition: background $animation-default-timing $animation-default-easing
+
+	&:hover
+
+		background: darken($Button-background-default, 10)
+
+	&.primary
+
+		background: $Button-background-primary
+
+		&:hover
+
+			background: darken($Button-background-primary, 10)
+
+	&.dangerous
+
+		background: $Button-background-dangerous
+
+		&:hover
+
+			background: darken($Button-background-dangerous, 10)
+
+	&[disabled],
+	&:disabled
+
+		background: $Button-background-disabled
+		color: rgba($Button-color, 0.7)
+		cursor: not-allowed
+
+		&:hover
+
+			background: $Button-background-disabled
+
+	&.link
+
+		background: none
+		color: $Button-background-primary
+
+		&:hover
+
+			text-decoration: underline
+			background: none
+
+		&.primary
+
+			color: $Button-background-primary
+
+			&:hover
+
+				color: darken($Button-background-primary, 10)
+
+		&.dangerous
+
+			color: $Button-background-dangerous
+
+			&:hover
+
+				color: darken($Button-background-dangerous, 10)
+
+		&[disabled],
+		&:disabled
+
+			color: $Button-background-disabled
+			text-decoration: none
