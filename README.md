@@ -52,20 +52,21 @@ The currently avialalbe templates are: -
 ```
 src
 ├── actions - API actions.
+├── utilities - Helper functions
+├── redux - All redux store configuration.
+    ├── rootReducer.js - The main application reducer file
+    ├── store.js - The configuration of the redux store.
+    ├── <Name>.reducer.js - A specific reducer
 ├── components - Application components.
+    ├── library - Reusable generic components.
+    ├── pages - pages, views, layouts typically triggered by routes.
     ├── app - Application specific components.
         ├── <ComponentName> - Folder with cammel cased name of the component
             ├── <ComponentName>.js - The main component definition
             ├── <ComponentName>.sass - Related style file if needed.
             ├── <ComponentName>.test.js - Related unit tests.
             ├── index.js - Clean export of the component. Allows for easy refereneing.
-    ├── library - Reusable generic components.
-    ├── pages - pages, views, layouts typically triggered by routes.
-├── redux - All redux store configuration.
-    ├── rootReducer.js - The main application reducer file
-    ├── store.js - The configuration of the redux store.
-    ├── <Name>.reducer.js - A specific reducer
-├── utilities - Helper functions
+
 ```
 
 ## Available Scripts
