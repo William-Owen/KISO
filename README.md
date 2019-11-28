@@ -47,10 +47,27 @@ The currently avialalbe templates are: -
 
 ## Component Structure
 
-- Jest for unit testing
+- Jest / React Testing Library for unit testing
 - Markdown for documentation
-- StoryBook for UI exploration
-- SASS for styling
+- StoryBook for UI exploration / documentation
+- SASS / Emotion for for styling
+- Index for clearn exports.
+
+```
+src
+├── actions - API actions.
+├── components - Application components.
+    ├── app - Application specific components.
+        ├── <ComponentName> - Folder with cammel cased name of the component
+            ├── <ComponentName>.js - The main component definition
+            ├── <ComponentName>.sass - Related style file if needed.
+            ├── <ComponentName>.test.js - Related unit tests.
+            ├── index.js - Clean export of the component. Allows for easy refereneing.
+    ├── library - Reusable generic components.
+    ├── pages - pages, views, layouts typically triggered by routes.
+├── redux - All redux store configuration.
+├── utilities - Helper functions
+```
 
 ## Available Scripts
 
