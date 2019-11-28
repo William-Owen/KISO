@@ -20,6 +20,7 @@ This project is work in progress and not intended for use. Its function at this 
 These are features that are currently being explored but are not yet feeling quite right.
 
 - *[Emotion CSS in JS](https://emotion.sh/docs/introduction)* - Themeing and CSS. I am still not convinced about CSS in JS. This project has been configured to allow a parent theme to overide a child themre (The inverse of how I undersand the normal behaviour to work). In this way the component can define a look and feel that the parent theme (implementation) can overide.
+- *[SASS](https://sass-lang.com/)* - I much prefer the DRY SASS syntax over SCSS.
 - Sotrybook Source view - This is not working correctly at this time.
 
 ## Plop template
