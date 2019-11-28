@@ -1,6 +1,6 @@
 # Project Feature Overview
 
-This project is work in progress and not intended for use. Its function at this time is simply to assist a conversation around ways of working with React applications. The application pulls together an opinionated stack of tools along with some opinionated logic to create an example React Application.
+This project is work in progress and not intended for use. Its function at this time is to assist a conversation around ways of working with React applications. The application pulls together an opinionated stack of tools along with some opinionated logic to create an example React Application.
 
 ## Install
 
@@ -19,19 +19,27 @@ This project is work in progress and not intended for use. Its function at this 
 
 These are features that are currently being explored but are not yet feeling quite right.
 
-- *[Emotion CSS in JS](https://emotion.sh/docs/introduction)* - Themeing and CSS. I am still not convinced about CSS in JS. This project has been configured to allow a parent theme to overide a child themre (The inverse of how I undersand the normal behaviour to work). In this way the component can define a look and feel that the parent theme (implementation) can overide.
+- *[Emotion CSS in JS](https://emotion.sh/docs/introduction)* - Themeing and CSS. I am still not convinced about CSS in JS. This project has been configured to allow a parent theme to override a child theme (The inverse of how I understand the normal behaviour to work). In this way, the component can define a look and feel that the parent theme (implementation) can override.
 - *[SASS](https://sass-lang.com/)* - I much prefer the DRY SASS syntax over SCSS.
-- Sotrybook Source view - This is not working correctly at this time.
+- Storybook Source view - This is not working correctly at this time.
 
 ## Plop template
 
-Micro code generator.
+Plop.js is a micro-generator, a tool that gives you a simple way to generate code or any other type of flat text files in a consistent way. Plop.js is perfect for scaffolding out components, pages and other contents such as tests and redux reducers were there is a fair amount of boilerplate.
 
 ### Install globally
 
 `npm i plop -g`
 
+### Call plop from the project directory
+
+`plop`
+
 ### Available Plop templates
+
+These templates are defined in the `plopfile.js` with supporting templates in the `plop-templates` directory. Plop templates use (Handlebars)[https://handlebarsjs.com/]
+
+The currently avialalbe templates are: -
 
 - Component
 - Page
