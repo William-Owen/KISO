@@ -66,6 +66,9 @@ src
     ├── library - Reusable generic components.
     ├── pages - pages, views, layouts typically triggered by routes.
 ├── redux - All redux store configuration.
+    ├── rootReducer.js - The main application reducer file
+    ├── store.js - The configuration of the redux store.
+    ├── <Name>.reducer.js - A specific reducer
 ├── utilities - Helper functions
 ```
 
