@@ -2,10 +2,6 @@
 
 This project is work in progress and not intended for use. Its function at this time is to assist a conversation around ways of working with React applications. The application pulls together an opinionated stack of tools along with some opinionated logic to create an example React Application.
 
-## Install
-
-`npm i`
-
 ## Features
 
 - *[React JS](https://reactjs.org/) and [Create React App](https://github.com/facebook/create-react-app)* - Modern JavaScrpt framework.
