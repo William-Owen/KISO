@@ -8,12 +8,13 @@ This project is work in progress and not intended for use. Its function at this 
 
 ## Features
 
-- *[ESLint](https://eslint.org/)* - IDE Linting for JavaScript/ES7/React/Babel with extneded support for cypress
-- *[EditorConfig](https://editorconfig.org/)* - General shared IDE config
-- *[Jest](https://jestjs.io/) / [React Testing Library](https://testing-library.com/)* - Unit testing
-- *[Cypress](https://www.cypress.io/)* - Developer end-to-end testing
-- *[StoryBook](https://storybook.js.org/)* - Component documentation and testing
-- *[Plop JS](https://plopjs.com/)* - Templates for pages and components
+- *[React JS](https://reactjs.org/) and [Create React App](https://github.com/facebook/create-react-app)* - Modern JavaScrpt framework.
+- *[ESLint](https://eslint.org/)* - IDE Linting for JavaScript/ES7/React/Babel with extneded support for cypress.
+- *[EditorConfig](https://editorconfig.org/)* - General shared IDE config.
+- *[Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/)* - Unit testing and low-level end-to-end testing.
+- *[Cypress](https://www.cypress.io/)* - Developer end-to-end testing.
+- *[StoryBook](https://storybook.js.org/)* - Component documentation and testing.
+- *[Plop JS](https://plopjs.com/)* - Templates for pages and components.
 
 ## Uncertain features
 
@@ -119,27 +120,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
