@@ -66,7 +66,6 @@ src
             ├── <ComponentName>.sass - Related style file if needed.
             ├── <ComponentName>.test.js - Related unit tests.
             ├── index.js - Clean export of the component. Allows for easy refereneing.
-
 ```
 
 ## Available Scripts
